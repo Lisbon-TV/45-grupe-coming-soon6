@@ -11,6 +11,40 @@
 
 /* CUSTOM CSS */
 
+.hero {
+    min-height: 100vh;
+    background-image: url(../../img/background.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero > .row-short {
+    display:flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.main-title {
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: -5px;
+    font-weight: bold;
+
+}
+
+.main-description {
+    text-align: center;
+
+}
+
 
 
 

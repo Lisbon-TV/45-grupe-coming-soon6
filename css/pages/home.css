@@ -23,6 +23,7 @@
 .hero > .row-short {
     display:flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .logo {
@@ -37,14 +38,29 @@
     text-align: center;
     letter-spacing: -5px;
     font-weight: bold;
-
 }
 
 .main-description {
     text-align: center;
-
+    font-size: 20px;
 }
 
+.column-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.column-description {
+    font-size: 17px;
+    line-height: 1.7em;
+    color: #777;
+}
+.column-description > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.column-description > a:hover {
+    text-decoration: underline;
+}
 
 
 

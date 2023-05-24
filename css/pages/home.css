@@ -5,6 +5,9 @@
 
 /* vendor */
 
+@import '../vendor/font-awesome.min.css';
+@import '../vendor/roboto.css';
+
 /* components */
 
 @import '../components/button.csss';
@@ -23,6 +26,7 @@
 .hero > .row-short {
     display:flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .logo {
@@ -32,21 +36,63 @@
 }
 
 .main-title {
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
     font-size: 70px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: -5px;
-    font-weight: bold;
-
 }
 
 .main-description {
     text-align: center;
-
+    font-size: 20px;
 }
 
+.column-title {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.column-description {
+    font-size: 17px;
+    line-height: 1.7em;
+    color: #777;
+}
+.column-description > a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+.column-description > a:hover {
+    text-decoration: underline;
+}
 
+footer > .row {
+    border-bottom: 1px solid #fff;
+}
 
+.socials {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 0;
+    font-size: 20px;
+    gap: 0.5em;
+    border-bottom: 1px solid #fff;
+}
+.socials > a {
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.socials > a:hover {
+    background-color: #fff;
+    color: var(--main-color);
+}
 
 
 

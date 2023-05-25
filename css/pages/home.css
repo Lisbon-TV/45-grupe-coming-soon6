@@ -134,7 +134,7 @@ footer .logo {
 }
 
 .text-trio > .line {
-    display: inline-block;
+    display: inline-block; /* nes span yra inline */
     width: 2px;
     height: 12px;
     background-color: #fff;
@@ -154,4 +154,13 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .text-trio > span {
+        display: block;
+    }
+    .text-trio > .line {
+        display: none;
+    }
 }

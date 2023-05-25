@@ -18,10 +18,7 @@
     flex-direction: column;
     gap: 30px;
     width: 50%;
-
-    /* margin: 20px 0; ???*/
-
-  float: left;
+    float: left;
 }
 
 .column-right {
@@ -60,6 +57,14 @@
 }
 
 @media (max-width: 500px) {
+    .row,   
+    .row-short {
+        width: 400px;
+        margin: margin: 0 calc((100% - 400px) / 2);
+    }
+}
+
+@media (max-width: 380px) {
     .container {
         padding: 40px 15px;
     }

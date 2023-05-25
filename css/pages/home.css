@@ -117,3 +117,41 @@ footer.container {
     background-color: #fff;
     color: var(--main-color);
 }
+
+footer .logo {
+    margin: 40px 0;
+}
+
+.text-trio {
+    text-align: center;
+    /* color: #fff; */
+    /* color: rgb(255, 255, 255); */
+    color: rgba(255, 255, 255, 0.6);
+}
+.text-trio > span {
+}
+.text-trio > span > a {
+}
+
+.text-trio > .line {
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    /* color #fff; tada color rgb(255,255,255); -> isblyskins, kai pridesim 0.5! pakeisti pirma i rgba */ 
+    color: rgba(255, 255, 255, 0.5)
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

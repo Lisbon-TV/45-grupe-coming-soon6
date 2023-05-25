@@ -96,8 +96,9 @@ footer.container {
 }
 
 .socials {
-    display: flex;
+    display: flex;  /* by default flex turi justify-content: center;. Todel reikia pakeisti! */
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0.5em 0;
     font-size: 20px;
     gap: 0.5em;
@@ -116,4 +117,52 @@ footer.container {
 .socials > a:hover {
     background-color: #fff;
     color: var(--main-color);
+    text-decoration: none;
+}
+
+footer .logo {
+    margin: 40px 0;
+}
+
+.text-trio {
+    text-align: center;
+    /* color: #fff; */
+    /* color: rgb(255, 255, 255); */
+    color: rgba(255, 255, 255, 0.6);
+}
+.text-trio > span {
+}
+.text-trio > span > a {
+}
+
+.text-trio > .line {
+    display: inline-block; /* nes span yra inline */
+    width: 2px;
+    height: 12px;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.footer-bottom {
+    text-align: center;
+    /* color #fff; tada color rgb(255,255,255); -> isblyskins, kai pridesim 0.5! pakeisti pirma i rgba */ 
+    color: rgba(255, 255, 255, 0.5)
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+    .text-trio > span {
+        display: block;
+    }
+    .text-trio > .line {
+        display: none;
+    }
 }

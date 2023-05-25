@@ -37,13 +37,16 @@
 .progress-bar-group .value {
 }
 .progress-bar-group .bottom {
-    width: 100%;
+    /* --height: 6px */
     height: 6px;
-    background-color: #ccc;
+     /* height: var(--height); */
+     width: 100%;
+     background-color: #ccc;
 }
 .progress-bar-group .progress {
     width: 40%;
     height: inherit;
+    /* height: var(--height); vaikas paveldi is savo artimiausio tevo */
     background-color: var(--main-color);
 }
 

@@ -1,4 +1,5 @@
-/* 
+/* Galima trumpinti! 
+
 .progress-bar-group {
 }
 .progress-bar-group > .progress-bar {
@@ -38,16 +39,23 @@
 }
 .progress-bar-group .bottom {
     /* --height: 6px */
-    height: 6px;
+    height: 6px; /* px ne %, nes % reiksme paveldeti neturi savo tevo */
      /* height: var(--height); */
      width: 100%;
      background-color: #ccc;
 }
 .progress-bar-group .progress {
     width: 40%;
-    height: inherit;
+    height: inherit; /* paveldi analogiska reiksme is tevo /*
     /* height: var(--height); vaikas paveldi is savo artimiausio tevo */
-    background-color: var(--main-color);
+    background-color: var(--main-color); /* o cia is root base css failo */
 }
+
+/* vienkartinius stilius paliekame html'e musu pvz. style="width: 90%;" */
+
+
+/* SPECIFISITY (id kiekis, klasiu + :pseudo selektoriu kiekis, tagu kiekis) -> hover over to view specificity */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity */
+
 
 

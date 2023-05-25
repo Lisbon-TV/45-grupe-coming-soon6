@@ -18,10 +18,8 @@
     flex-direction: column;
     gap: 30px;
     width: 50%;
-    /* margin: 20px 0; ??? */
     float: left;
 }
-
 .column-right {
     width: 40%;
     margin-left: 10%;

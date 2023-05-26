@@ -130,10 +130,13 @@ footer .logo {
     /* color: rgb(255, 255, 255); */
     color: rgba(255, 255, 255, 0.6);
 }
+
+/*
 .text-trio > span {
 }
 .text-trio > span > a {
 }
+*/
 
 .text-trio > .line {
     display: inline-block; /* nes span yra inline */
